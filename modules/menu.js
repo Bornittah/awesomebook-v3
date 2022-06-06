@@ -1,4 +1,4 @@
-function navigationMenu() {
+const navigationMenu = () => {
   const listSection = document.querySelector('.booklist');
   const addSection = document.querySelector('.addnew');
   const contactSection = document.querySelector('.contacts');
