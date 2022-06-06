@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesomebook - A collection of books</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header>
+      <nav class="menu">
+        <a href="index.html" class="logo">Awesome Books</a>
+        <ul class="navbar">
+          <li class="nav-link border-right">
+            <a href="#booklist-section" id="bookslist">List</a>
+          </li>
+          <li class="nav-link border-right">
+            <a href="#addnew-section" id="addbooks">Add New</a>
+          </li>
+          <li class="nav-link">
+            <a href="#contact-section" id="contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="datetime">
+        <p>Current Date</p>
+      </div>
+  </header>
+
+  <main>
+      <section class="booklist" id="booklist-section">
+        <div class="title">
+          <h2>All awesome books</h2>
+        </div>
+        <div class="container">
+          <ul class="list"></ul>
+        </div>
+      </section>
+
+      <section class="addnew" id="addnew-section">
+        <div class="title">
+          <h2>Add a new book</h2>
+        </div>
+        <div class="container">
+          <form id="form">
+            <input type="text" id="title-input" name="title" placeholder="Title" required />
+            <input type="text" id="author-input" name="author" placeholder="Author" required />
+            <div class="btn">
+              <button type="submit">Add</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="contacts" id="contact-section">
+        <div class="title">
+          <h2>Contact Information</h2>
+        </div>
+        <div class="container">
+          <div class="contact-details">
+            <p>Do you have any question or you just want to say "Hello"?</p>
+            <p>You can reach out to us!</p>
+            <ul class="info">
+              <li>Our Email : mail@mail.com</li>
+              <li>Our Phone number : 0049292828</li>
+              <li>Our Address : Plot 234, Complex building, City name, Country</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="copyright">
+      <p>&copy;2022 Awesomebooks, All rights reserved.</p>
+    </div>
+  </footer>
+  <script type='module' src='./index.js'></script>
+</body>
+</html>
