@@ -1,13 +1,13 @@
 import * as menu from './modules/menu.js';
 import { Book } from './modules/storage.js';
-import { DateTime } from "./modules/luxon.min.js";
+import { DateTime } from './modules/luxon.min.js';
 
 menu.navigationMenu();
 
 const now = DateTime.now();
-let dateTime = document.querySelector('.datetime time');
-dateTime.setAttribute('datetime', now);
-dateTime.innerHTML = now;
+const dateTime = document.querySelector('.datetime time');
+dateTime.setAttribute('datetime', now.toJSDate());
+dateTime.innerHTML = now.toJSDate();
 
 const titleInput = document.querySelector('#title-input');
 const authorInput = document.querySelector('#author-input');
