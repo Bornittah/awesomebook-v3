@@ -19,8 +19,9 @@ One should have some knowledge about the following
 - Languages - HTML, CSS and Javascript
 - Frameworks - None
 - Technologies - Web Technology
-- Other tools - HTML & CSS Linters
+- Other tools - HTML & CSS Eslint Linters
 - npm as software packages system
+- Library - Luxon
 
 # Contributing
 Feel free to check out the [Issues page](https://github.com/Bornittah/awesomebook-v3/issues)
