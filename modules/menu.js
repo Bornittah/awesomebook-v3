@@ -29,5 +29,5 @@ const navigationMenu = () => {
       });
     });
   });
-}
+};
 export { navigationMenu };
