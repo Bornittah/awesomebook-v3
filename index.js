@@ -5,8 +5,7 @@ import { DateTime } from './modules/luxon.min.js';
 menu.navigationMenu();
 
 const now = DateTime.now();
-const dateTime = document.querySelector('.datetime time');
-dateTime.setAttribute('datetime', now.toJSDate());
+const dateTime = document.querySelector('.datetime p');
 dateTime.textContent = now.toJSDate();
 
 const titleInput = document.querySelector('#title-input');
