@@ -6,8 +6,8 @@ menu.navigationMenu();
 
 const now = DateTime.now();
 let dateTime = document.querySelector('.datetime time');
-dateTime.setAttribute('datetime', now);
-dateTime.innerHTML = now.toString();
+// dateTime.setAttribute('datetime', now);
+dateTime.innerHTML = DateTime.local();
 
 const titleInput = document.querySelector('#title-input');
 const authorInput = document.querySelector('#author-input');
